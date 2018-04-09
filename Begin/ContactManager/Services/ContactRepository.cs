@@ -6,10 +6,10 @@ using ContactManager.Models;
 
 namespace ContactManager.Services
 {
-    private const string CacheKey = "ContactStore";
-
     public class ContactRepository
     {
+        private const string CacheKey = "ContactStore";
+
         public ContactRepository()
         {
             var ctx = HttpContext.Current;
